@@ -22,8 +22,8 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5                                                 &kp N6  &kp N7  &kp N8        &kp N9   &kp N0    &kp MINUS
-&kp TAB    &kp Q   &kp W   &kp E     &kp R   &kp T                                                  &kp Y   &kp U   &kp I         &kp O    &kp P     &kp EQUAL
+&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5                                                 &kp N6  &kp N7  &kp N8        &kp N9   &kp N0    &kp BSPC
+&kp TAB    &kp Q   &kp W   &kp E     &kp R   &kp T                                                  &kp Y   &kp U   &kp I         &kp O    &kp P     &kp BACKSLASH
 &kp CAPS   &kp A   &kp S   &kp D     &kp F   &kp G                                                  &kp H   &kp J   &kp K         &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z   &kp X   &kp C     &kp V   &kp B   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N   &kp M   &kp COMMA     &kp DOT  &kp FSLH  &kp RSHFT
                            &kp LALT  &mo 2   &mo 1   &kp SPACE               &kp RET                &mo 2   &mo 1   &kp LEFT_WIN
@@ -44,8 +44,8 @@
             bindings = <
 &kp GRAVE  &kp N6           &kp N7    &kp N8        &kp N9  &kp N0                                            &kp F7  &kp F8   &kp F9    &kp F10      &kp F11  &kp F12
 &kp BSPC   &kp PRINTSCREEN  &kp UP    &none         &none   &kp BSLH                                          &none   &none    &none     &none        &none    &kp BACKSLASH
-&kp DEL    &kp LEFT         &kp DOWN  &kp RIGHT     &none   &kp EQUAL                                         &none   &kp INS  &kp HOME  &kp PAGE_UP  &none    &none
-&kp LCTRL  &none            &none     &none         &none   &kp MINUS  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &none   &kp DEL  &kp END   &kp PG_DN    &none    &none
+&kp DEL    &kp LEFT         &kp DOWN  &kp RIGHT     &none   &kp EQUAL                                         &none   &kp INS  &kp HOME  &kp PAGE_UP  &none    &kp EQUAL
+&kp LCTRL  &none            &none     &none         &none   &kp MINUS  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &none   &kp DEL  &kp END   &kp PG_DN    &none    &kp MINUS
                                       &kp LEFT_WIN  &trans  &trans     &kp SPACE           &kp ENTER          &trans  &trans   &trans
             >;
 
